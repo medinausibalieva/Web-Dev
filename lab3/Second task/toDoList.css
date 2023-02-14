@@ -1,0 +1,98 @@
+
+header{
+    background-color: rgb(34, 34, 34);
+    color: rgb(138, 139, 144);
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 20px;
+}
+
+.container{
+    width: 80%;
+    margin: 150px auto;
+    text-align: center;
+
+}
+
+.container h2{
+    text-align: left;
+    margin-left: 10%;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: normal;
+}
+
+#add{
+    width: 50%;
+    height: 35px;
+    border: 1px solid #CCCCCCFF;
+    border-radius: 6px;
+    margin-left: 4%;
+}
+
+#btn{
+    background-color: rgb(18, 114, 204);
+    color: white;
+    margin-top: -30px;
+    margin-left: 80%px;
+    height: 40px;
+    width: 60px;
+    border-radius: 6px;
+    border: none;
+}
+
+#btn:hover{
+    cursor: pointer;
+    color: #060670FF;
+}
+
+#tasks{
+    width: 80%;
+    margin: 50px auto;
+    list-style-type: none;
+    font-size: 18px;
+    padding-left: 0px;
+    border-right: 1px solid #CCCCCCFF;
+    border-left: 1px solid #CCCCCCFF;
+    border-top: 1px solid #CCCCCCFF;
+    border-radius: 3px;
+}
+
+#tasks li{
+    text-align: left;
+    border-bottom: 1px solid #CCCCCCFF;
+    padding: 20px;
+}
+
+#tasks label{
+    padding-left: 10px;
+}
+
+.complete{
+    text-decoration-line:line-through;
+}
+
+.not-complete{
+    text-decoration:none;
+}
+
+#delete{
+    color: red;
+    border: none;
+    background-color: inherit;
+    float: right;
+}
+
+#delete:hover{
+    cursor: pointer;
+}
+
+input[type="checkbox"]:hover{
+    cursor: pointer;
+}

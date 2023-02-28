@@ -1,8 +1,8 @@
 .image-class{
     margin-right: 20px;
     float: left;
-    width: 170px;
-    height: 300px;
+    width: 225px;
+    height: 360px;
     padding: 10px 10px;
 }
 
@@ -17,6 +17,10 @@
 .image-star{
     width: 115px;
     margin-left: -10px;
+}
+.like{
+    margin-left: 250px;
+    margin-top: -35px;
 }
 /*
 Copyright Google LLC. All Rights Reserved.

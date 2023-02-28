@@ -176,6 +176,61 @@ export const products = [
     rating: 'https://static.vecteezy.com/system/resources/previews/004/256/658/original/five-star-customer-product-ratings-review-flat-icons-for-apps-and-websites-illustration-of-five-golden-yellow-stars-in-a-row-isolated-in-a-white-background-concepts-for-ratings-customers-review-free-vector.jpg',
     image: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/hb0/h93/67039926747166/royal-touch-dlya-apple-iphone-13-pro-mul-tikolor-108110211-1.jpg'
   },
+  {
+    id: 16,
+    category: 4,
+    like: 21,
+    name: 'The book of Primachenko O.: To yourself tenderly',
+    price: 4779,
+    description: '"To yourself tenderly" is a new, very honest look at self–love. This is a meditation book that calls for an inner conversation and helps to hear your own voice among many others. The author of the book Olga Primachenko is a journalist, ex-editor-in-chief of LADY.TUT.BY and author of the blog Gnezdo.by – talks to the reader about important things: about accepting your feelings, desires and body, about setting priorities and boundaries, about creating a nutritious space around yourself, as well as about eco-friendly interaction with the world and people. At the end of the book, the reader will have a 31-day practice of tenderness for himself.',
+    link: 'https://kaspi.kz/shop/p/primachenko-o-k-sebe-nezhno-101855237/?c=750000000&utm_source=google&utm_medium=cpc&utm_campaign=shop_google_search_kaspi_brand_desktop&gclid=CjwKCAiAxvGfBhB-EiwAMPakqhMMHJi5RD8JbMGmPAtXLDzHJWO1gKu3ELRLt6IIsnK5NqypIlS4hxoC1aAQAvD_BwE#!/item',
+    rating: 'https://static.vecteezy.com/system/resources/previews/004/256/658/original/five-star-customer-product-ratings-review-flat-icons-for-apps-and-websites-illustration-of-five-golden-yellow-stars-in-a-row-isolated-in-a-white-background-concepts-for-ratings-customers-review-free-vector.jpg',
+    image: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h40/h13/49511184433182/primachenko-o-k-sebe-nezhno-101855237-1.jpg'
+  },
+  {
+    id: 17,
+    category: 4,
+    like: 33,
+    name: 'Keho D.\'s book: The subconscious mind can do anything!',
+    price: 5430,
+    description: 'The author of this book, in solitude among the forests of the Canadian province of British Columbia, spent three years concentrating on questions concerning the activity of the human brain. Ways to activate his limitless resources, developed and combined by John Kehoe into a specific program, can change your life for the better, fill it with success and happiness.',
+    link: 'https://kaspi.kz/shop/p/keho-d-podsoznanie-mozhet-vsjo--100070152/?c=750000000&utm_source=google&utm_medium=cpc&utm_campaign=shop_google_search_kaspi_brand_desktop&gclid=CjwKCAiAxvGfBhB-EiwAMPakqhMMHJi5RD8JbMGmPAtXLDzHJWO1gKu3ELRLt6IIsnK5NqypIlS4hxoC1aAQAvD_BwE#!/item',
+    rating: 'https://static.vecteezy.com/system/resources/previews/004/256/658/original/five-star-customer-product-ratings-review-flat-icons-for-apps-and-websites-illustration-of-five-golden-yellow-stars-in-a-row-isolated-in-a-white-background-concepts-for-ratings-customers-review-free-vector.jpg',
+    image: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h01/h60/32458966794270/keho-d-podsoznanie-mozet-vse-100070152-1-Container.jpg'
+  },
+  {
+    id: 18,
+    category: 4,
+    like: 13,
+    name: 'The book Manson M.: The Subtle art of indifference. A paradoxical way to live happily',
+    price: 4834,
+    description: 'Modern society promotes the cult of success: be smarter, richer, more productive — be the best of all. Social networks abound with stories about how some kid came up with an application and earned a lot of money, articles in the spirit of "A thousand and one ways to be happy", and photos in the friendlent give the impression that others live better and more interesting than us. However, our obsession with positivity and success only reminds us of what we have not achieved, of dreams that have not come true. How to become truly happy? Popular blogger Mark Manson offers his own, original approach to this issue. His philosophy of life is simple — it is necessary to learn the art of indifference. Having determined what you really care about, you need to be able to spit on everything secondary, forget about difficulties, send someone else\'s opinion to hell and be ready to face failures and show them the middle finger. In his witty book, which instantly became the No. 1 bestseller on Amazon, through the stories of life troubles, failures and failures (both his own and famous people), the author tells how to master this subtle art of indifference, why you need to be less confident in yourself and that the principle of "Do something" is an excellent motivation. This book will help you to live easily despite all the difficulties, worry less and enjoy life',
+    link: 'https://kaspi.kz/shop/p/menson-m-tonkoe-iskusstvo-pofigizma-paradoksal-nyi-sposob-zhit-schastlivo-26016594/?c=750000000&utm_source=google&utm_medium=cpc&utm_campaign=shop_google_search_kaspi_brand_desktop&gclid=CjwKCAiAxvGfBhB-EiwAMPakqhMMHJi5RD8JbMGmPAtXLDzHJWO1gKu3ELRLt6IIsnK5NqypIlS4hxoC1aAQAvD_BwE#!/item',
+    rating: 'https://static.vecteezy.com/system/resources/previews/004/256/658/original/five-star-customer-product-ratings-review-flat-icons-for-apps-and-websites-illustration-of-five-golden-yellow-stars-in-a-row-isolated-in-a-white-background-concepts-for-ratings-customers-review-free-vector.jpg',
+    image: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/hdd/h50/31963198816286/menson-m-tonkoe-iskusstvo-pofigizma-paradoksalnyj-sposob-zit-scastlivo-26016594-1-Container.jpg'
+  },
+  {
+    id: 19,
+    category: 4,
+    like: 67,
+    name: 'Coelho P.\'s Book: The Alchemist',
+    price: 2506,
+    description: 'The Alchemist is the most famous novel by Brazilian writer Paulo Coelho, the favorite book of millions of people around the world. In youth, people are not afraid to dream, everything seems possible to them. But time passes, and a mysterious force begins to inspire them that their desires are unfeasible. To achieve the embodiment of One\'s Destiny is the only true duty of a person ... — says Paulo Coelho. This cult novel-parable is able to change the lives of its readers.',
+    link: 'https://kaspi.kz/shop/p/koel-o-p-alhimik-26018156/?c=750000000&utm_source=google&utm_medium=cpc&utm_campaign=shop_google_search_kaspi_brand_desktop&gclid=CjwKCAiAxvGfBhB-EiwAMPakqhMMHJi5RD8JbMGmPAtXLDzHJWO1gKu3ELRLt6IIsnK5NqypIlS4hxoC1aAQAvD_BwE#!/item',
+    rating: 'https://static.vecteezy.com/system/resources/previews/004/256/658/original/five-star-customer-product-ratings-review-flat-icons-for-apps-and-websites-illustration-of-five-golden-yellow-stars-in-a-row-isolated-in-a-white-background-concepts-for-ratings-customers-review-free-vector.jpg',
+    image: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h71/h43/31576355897374/koel-o-p-alkhimik-26018156-1.jpg'
+  },
+  {
+    id: 20,
+    category: 4,
+    like: 30,
+    name: 'The book Cobain O. F.: Charisma: How to influence, convince and inspire',
+    price: 2635,
+    description: 'The book debunks one of the most hardened myths of our time that charisma is a gift from the gods. Many people believe that this is an innate quality, and perceive a charismatic personality almost as a superman. But this is not the case at all. Compare the recordings of Steve Jobs\' early speeches with his recent addresses to the public and you will see how much more charismatic he has become. Olivia Fox Cabane proves that charisma is a skill that everyone can master. The author is the world\'s leading expert in the field of charisma. The book tells about the three main aspects of charisma, you will learn how to develop and apply them. The book will give you tools that you can put into practice and immediately get results. The book is for those who want to be as attractive as Bill Clinton, or as charming as Steve Jobs was. This book is for those who believe that they already have some charisma and want to learn how to manage it better. But even if you think that you are not a charismatic personality type, read the book and see how your life will change.',
+    link: 'https://kaspi.kz/shop/p/kabein-o-f-harizma-kak-vlijat-ubezhdat-i-vdohnovljat--26001091/?c=750000000&utm_source=google&utm_medium=cpc&utm_campaign=shop_google_search_kaspi_brand_desktop&gclid=CjwKCAiAxvGfBhB-EiwAMPakqhMMHJi5RD8JbMGmPAtXLDzHJWO1gKu3ELRLt6IIsnK5NqypIlS4hxoC1aAQAvD_BwE#!/item',
+    rating: 'https://static.vecteezy.com/system/resources/previews/004/256/658/original/five-star-customer-product-ratings-review-flat-icons-for-apps-and-websites-illustration-of-five-golden-yellow-stars-in-a-row-isolated-in-a-white-background-concepts-for-ratings-customers-review-free-vector.jpg',
+    image: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/ha7/h15/31945384296478/kabein-o-f-kharizma-kak-vliyat-ubezhdat-i-vdokhnovlyat-26001091-1.jpg'
+  },
 ];
 
 

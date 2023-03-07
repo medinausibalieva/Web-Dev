@@ -1,7 +1,9 @@
-<div *ngIf="album">
+<div *ngIf="loaded">
   <h2> Album Detail #{{album.id}}</h2>
 
-  <h4> Album Title: {{album.title}}</h4>
+  <h4> {{album.title}}</h4>
 
   <p> {{album.body}}</p>
 </div>
+
+<h3 *ngIf="!loaded">Album item is loading! </h3>

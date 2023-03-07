@@ -38,4 +38,7 @@ export class AlbumsComponent implements OnInit{
       this.newAlbum = {} as Album;
     });
   }
+  deleteAlbum(albm: Album){
+    this.albums = this.albums.filter(album => album.id !== albm.id);
+  }
 }

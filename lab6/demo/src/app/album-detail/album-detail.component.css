@@ -1,0 +1,88 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #f5f5f5;
+  margin: 0;
+}
+#base {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  align-items: center;
+}
+
+.details {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-top: 20px;
+  background-color: #bff6c1;
+  border-radius: 5px;
+}
+
+#return {
+  background-color: #4CAF50;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+#return:hover {
+  background-color: #3e8e41;
+}
+
+fieldset {
+  margin-top: 20px;
+  border: none;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 80%;
+  margin-left: -10px;
+}
+
+button#up-date {
+  background-color: #4CAF50;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+button#up-date:hover {
+  background-color: #3e8e41;
+}
+
+a {
+  color: #0e8011;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+button{
+  border-radius: 5px;
+}
+
+
+
+
+

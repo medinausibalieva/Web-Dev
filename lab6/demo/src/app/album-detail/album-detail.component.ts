@@ -3,6 +3,7 @@ import {ActivatedRoute} from "@angular/router";
 import {ALBUMS} from "../fake-db";
 import {Album} from "../models";
 import {AlbumService} from "../album.service";
+import {Location} from "@angular/common";
 
 
 @Component({
@@ -13,10 +14,13 @@ import {AlbumService} from "../album.service";
 export class AlbumDetailComponent implements OnInit{
   album: Album;
   loaded: boolean;
+  newTitle: string;
   constructor(private route: ActivatedRoute,
-              private albumService: AlbumService) {
+              private albumService: AlbumService,
+              public location: Location) {
     this.album = {} as Album;
     this.loaded = true;
+    this.newTitle = '';
   }
 
   ngOnInit() : void{
@@ -29,6 +33,15 @@ export class AlbumDetailComponent implements OnInit{
         this.album = album;
         this.loaded = true;
       });
+    })
+  }
+  updateAlbum() {
+    this.loaded = false;
+    this.album.title = this.newTitle;
+    this.albumService.updateAlbum(this.album).subscribe((album) => {
+      this.album = album;
+      this.loaded = true;
+      this.newTitle = '';
     })
   }
 }

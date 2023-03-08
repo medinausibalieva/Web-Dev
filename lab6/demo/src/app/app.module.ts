@@ -10,6 +10,7 @@ import { AlbumsComponent } from './albums/albums.component';
 import { AlbumDetailComponent } from './album-detail/album-detail.component';
 import {HttpClientModule} from "@angular/common/http";
 import {FormsModule} from "@angular/forms";
+import { AlbumPhotosComponent } from './album-photos/album-photos.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import {FormsModule} from "@angular/forms";
     AboutComponent,
     NotFoundComponent,
     AlbumsComponent,
-    AlbumDetailComponent
+    AlbumDetailComponent,
+    AlbumPhotosComponent
   ],
   imports: [
     BrowserModule,

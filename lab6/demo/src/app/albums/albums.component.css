@@ -1,40 +1,85 @@
-body {
-  font-family: sans-serif;
+#albm {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  width: 80%;
+  margin-left: 10px;
 }
-h2 {
+
+h1{
   text-align: center;
-  font-size: 30px;
 }
-input[type="text"] {
-  border-radius: 3px;
-  width:50%;
-  margin-right: 10px;
-  padding: 10px;
+
+.main-word{
+  font-size: 40px;
+  color: #32861e;
 }
-fieldset {
-  border:none;
-}
-button {
-  background-color: #1877F2;
-  color: white;
-  border:0.5px solid;
+
+fieldset{
+  display: inline-flex;
+  width: 80%;
   border-radius: 5px;
-  padding: 11px;
-  font-weight: bold;
+  justify-content: space-between;
 }
-button:hover{
-  color: #bed5fd;
-}
+
 #deleteAlbum {
-  padding:3px;
-  margin:2px;
+  background-color: rgba(201, 56, 30, 0.87);
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100px;
+  height: 28px;
 }
-ul, li {
-  list-style-type: none;
+
+#deleteAlbum:hover {
+  background-color: #d14225;
 }
-a{
-  font-size: 15px;
+
+#add-btn {
+  background-color: #33cc33;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100px;
+  height: 38px;
 }
-#add-btn{
-  width: 150px;
+
+#add-btn:hover {
+  background-color: #1aa12a;
 }
+
+input[type="text"] {
+  width: 200px;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 18px;
+}
+.container{
+  margin-left: 170px;
+
+}
+

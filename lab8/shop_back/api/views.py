@@ -20,7 +20,7 @@ def product_detail(request, id):
         'is_active': product.is_active,
         'category': product.category.name
     }}
-    return JsonResponse(data)
+    return JsonResponse(data, json_dumps_params={'indent': 2})
 
 def category_list(request):
     categories = Category.objects.all()

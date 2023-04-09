@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "name": "PricewaterhouseCoopers",
+    "description": "PricewaterhouseCoopers LLP (Pwc) provides professional services. The Company offers business advisory services such as auditing, accounting, taxation, strategy management, and human resource consulting services.",
+    "city": "Almaty",
+    "address": "Al-Farabi street 34"
+  },
+  {
+    "id": 2,
+    "name": "Kolesa group",
+    "description": "Kolesa LLP is an Almaty based company, a leader in Kazakhstani classifieds business. We run kolesa.kz, the \u21161 automotive classified project, and krisha.kz, the \u21161 realty estate classified project in Kazakhstan. \u201cKolesa\u201d can be translated to English as car wheels. \u201cKrisha\u201d in Russian means a house roof.",
+    "city": "Almaty",
+    "address": "Shevchenko Street 157b"
+  }
+]
